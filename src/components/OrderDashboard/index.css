@@ -1,0 +1,17 @@
+.order-dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dashboard-content {
+    display: flex;
+    flex: 1;
+}
+
+.main-content {
+    flex-grow: 1;
+    overflow: auto;
+    padding: 20px;
+}

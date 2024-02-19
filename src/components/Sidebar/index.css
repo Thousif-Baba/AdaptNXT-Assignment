@@ -1,0 +1,18 @@
+.sidebar {
+    width: 200px;
+    background-color: #f8f9fa;
+    padding-top: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-left: 3px solid transparent;
+}
+
+.active {
+    background-color: #9ac5fc;
+    color: white;
+    border-left-color: white;
+}

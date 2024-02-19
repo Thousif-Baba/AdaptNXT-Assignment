@@ -1,0 +1,33 @@
+.navigation-bar {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.shopping-image {
+    height: 30px;
+    width: 80px;
+    margin-right: 50px;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-container {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}

@@ -1,0 +1,115 @@
+.table-container {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.functional-button {
+    border: 1px solid lightgrey;
+    font-size: 13px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.active-function-button {
+    background-color: transparent;
+}
+
+.inactive-function-button {
+    background-color: lightgray;
+}
+
+.refresh-button {
+    border: none;
+    background-color: blue;
+    color: #ffffff;
+}
+
+.order-table th,
+.order-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.order-table th {
+    background-color: #f8f9fa;
+    text-align: left;
+}
+
+
+.actions-button {
+    border: 1px solid gray;
+    color: black;
+    font-size: 12px;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px 16px;
+}
+
+.shopping-image {
+    height: 30px;
+    width: 30px;
+}
+
+.order-number {
+    color: blue;
+}
+
+.rows-data {
+    font-size: 13px;
+}
+
+
+.icon-style {
+    color: lightgrey;
+}
+
+.channel-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status {
+    border: 1px solid green;
+    color: green;
+    background-color: #d2f7b5;
+}
+
+.page-details-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.page-number {
+    border: 1px solid blue;
+    padding: 5px 10px;
+    color: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.arrows {
+    border: 1px solid grey;
+    padding: 5px 6px;
+}
+
+.total-pages {
+    border: 1px solid grey;
+    padding: 5px 6px;
+    margin-left: 10px;
+}
